@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.7;
+  background: #fff;
+}
+
+header {
+  background: #0a37d7;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+/*nav {
+  background: #e8eadc;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #1a4d8f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}*/
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #1f35b3;
+  border-bottom: 3px solid #1a4d8f;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+.horaires {
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 5px solid #1a4d8f;
+}
+
+.horaires p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 3px solid #1a4d8f;
+}
+
+footer {
+  background: #1a4d8f;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                #0d6efd;
+    min-height: 80vh;
+    display:flex;
+    align-items:center;
+}
+/* ==========================
+   COMPTEUR D'ÉVÉNEMENT
+========================== */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.card h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+/* ==========================
+   FOOTER
+========================== */
+
+footer a {
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: gold !important;
+    padding-left: 5px;
+}
